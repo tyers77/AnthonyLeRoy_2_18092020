@@ -1,0 +1,24 @@
+@font-family
+{
+	font-family: "Raleway";
+ 	 src:url("fonts/Raleway-Italic-VariableFont_wght");
+ 	 src:url("fonts/Raleway-VariableFont_wght");
+
+}
+
+body
+{
+	font-family: "Raleway", sans-serif;
+}
+ #marker, #finance 
+{
+	color: black;
+}
+i
+{
+	color: #0065fc;
+}
+#hebergements, #populaires, footer
+{
+	background-color: #f2f2f2;
+}
