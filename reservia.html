@@ -8,28 +8,30 @@
 	<title>Reservia</title>
 </head>
 <body>
-	<header>
+	<header id="conteneur">
 		<div id="logo">
 			<img src="projet_2/images/logo/Reservia@3x.png" alt="logo du site" />
 		</div>
 
-		<nav>
+		<nav class="menu">
 			<ul>
-				<li><a href="#">Hébergements</a></li>
-				<li><a href="#">Activités</a></li>
-				<li><a href="#">S'inscrire</a></li>
+				<li><a href="#">&emsp;Hébergements&emsp;</a></li>
+				<li><a href="#">&emsp;Activités&emsp;</a></li>
+				<li><a href="#">&emsp;S'inscrire&emsp;</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<article id="recherche">
 		<h2>Trouvez votre hébergement pour des vacances de rêves</h2>
-			<p>En plein centre ville ou en pleine nature</p>
-					<i id="marker" class="fa fa-map-marker" aria-hidden="true"></i>
+			<p class="titre">En plein centre ville ou en pleine nature</p>
+				<div class="searchbar">
+					<p class="marker"><i class="fa fa-map-marker" aria-hidden="true"></i></p>
 						<form method="post">
-							<input type="text" name="recherche" value="Marseille, France">
-								<button type="submit">Rechercher</button>
+							<input class="textarea" type="text" name="recherche" value="Marseille, France">
+								<button class="button"  type="submit">Rechercher</button>
 						</form>
+				</div>
 
 		<nav>
 			<p>Filtres</p>

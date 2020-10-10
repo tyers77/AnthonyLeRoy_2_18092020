@@ -1,4 +1,4 @@
-@font-family
+@font-face
 {
 	font-family: "Raleway";
  	 src:url("fonts/Raleway-Italic-VariableFont_wght");
@@ -6,19 +6,115 @@
 
 }
 
+/*corps de page*/
 body
 {
 	font-family: "Raleway", sans-serif;
+	width: 95%;
+	margin: auto;
+	padding: auto;
 }
- #marker, #finance 
+
+/*header logo*/
+#conteneur
 {
-	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
 }
-i
+
+#logo img
 {
+	width: 106px;
+	height: 60px;
+}
+
+/*menu*/
+.menu ul
+{
+	display: flex;
+	list-style-type: none;
+}
+
+.menu li
+{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	margin-right: 50px;
+	font-size: 1.1em;
+}
+
+.menu a
+{
+	color: #000000;
+	text-decoration: none;
+	padding-top: 30px;
+}
+
+a:hover
+{
+	border-top: 1px #0065fc solid;
 	color: #0065fc;
 }
-#hebergements, #populaires, footer
+
+/*titre et recherche*/
+#recherche h2
 {
+	font-size: 1.5em;
+}
+
+.titre
+{
+	font-size: 1.1em;
+	margin-top: -10px;
+}
+
+.searchbar
+{
+	display: flex;
+	justify-content: flex-start;
+	text-decoration: none;
+}
+
+.marker
+{
+	width: 40px;
+	height: 26px;
+	font-size: 1.1em;
+	text-align: center;
+	padding: 6px;
+	padding-left: 8px;
+	padding-top: 10px;
+	border: 1px #f2f2f2 solid;
+	border-radius: 12px 0px 0px 12px;
+	color: #000000;
+	margin-top: auto;
 	background-color: #f2f2f2;
+}
+
+.textarea
+{
+	width: 240px;
+	height: 40px;
+	font-size: 1.1em;
+	font-weight: bold;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px #f2f2f2 solid;
+	border-top: 1px #f2f2f2 solid;
+	padding-left: 16px;
+}
+
+.button
+{
+	width: 150px;
+	height: 43px;
+	margin-left: -5px;
+	color: white;
+	font-size: 1.2em;
+	border: 2px #0065fc solid;
+	border-radius: 0px 12px 12px 0px;
+	background-color: #0065fc;
+
 }
