@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src = " https://use.fontawesome.com/da289b5ec0.js " > </script>
-	<script src="https://kit.fontawesome.com/45eba3c3b0.js" crossorigin="anonymous"></script>
-	<title>Reservia</title>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width,initail-scale-1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src = " https://use.fontawesome.com/da289b5ec0.js " > </script>
+		<script src="https://kit.fontawesome.com/45eba3c3b0.js" crossorigin="anonymous"></script>
+		<title>Reservia</title>
+	</head>
 <body>
-	<header id="conteneur">
+	<header class="conteneur">
 		<div id="logo">
 			<img src="projet_2/images/logo/Reservia@3x.png" alt="logo du site" />
 		</div>
 
 		<nav class="menu">
 			<ul>
-				<li><a class="hover" href="#">&emsp;Hébergements&emsp;</a></li>
-				<li><a class="hover" href="#">&emsp;Activités&emsp;</a></li>
-				<li><a class="hover" href="#">&emsp;S'inscrire&emsp;</a></li>
+				<li><a class="hover" href="#">Hébergements</a></li>
+				<li><a class="hover" href="#">Activités</a></li>
+				<li><a class="inscrire" href="#">S'inscrire</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<article id="recherche">
+	<article class="recherche">
 		<h2>Trouvez votre hébergement pour des vacances de rêves</h2>
 			<p class="titre">En plein centre ville ou en pleine nature</p>
 				<div class="searchbar">
@@ -46,9 +47,9 @@
 			<p class="info"><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
 	</article>
 
-	<section class="section1"><h2>&nbsp;</h2>
-		<article id="hebergements">
-			<h2>Hébergements à Marseille</h2>
+	<div class="section1">
+		<article class="hebergements">
+			<h2>Hébergements à Marseille</h2>	
 				<div class="auberge">
 					<a href="#">
 					<figure><img src="Projet_2/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo auberge de la cannebière">
@@ -105,9 +106,10 @@
 					</figure>
 					</a>
 				</div>
-					<div class="afficher"><p><a href="#">Afficher plus</a></p></div></article>
+					<div class="afficher"><p><a href="#">Afficher plus</a></p></div>
+			</article>
 
-		<article id="populaires">		
+		<article class="populaires">		
 			<div class="plus">
 				<h2>Les plus populaires</h2>
 				<i class="fas fa-chart-line" id="finance"></i>
@@ -137,59 +139,58 @@
 					</figure>
 				</a>
 		</article>
-	</section>
+	</div>
 
 	<section class="section2">
 		<h2>Activités à Marseille</h2>
-			<article class="activites">
-				<h2>&ensp;</h2>
-				<a href="#" id="vieux">
+			<div class="activites">
+				<a href="#" class="vieux">
 					<figure><img src="Projet_2/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo vieux port">
 						<figcaption><strong>Vieux Port</strong></figcaption>
 					</figure>
 				</a>
-				<a href="#" id="fort">
+				<a href="#" class="fort">
 					<figure><img src="Projet_2/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo fort de Pomègues">
 						<figcaption><strong>Fort de Pomègues</strong></figcaption>
 					</figure>
 				</a>
-				<a href="#" id="frioul">
+				<a href="#" class="frioul">
 					<figure><img src="Projet_2/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo îles du Frioul">
 						<figcaption><strong>Îles du Frioul</strong></figcaption>
 					</figure>
 				</a>
-				<a href="#" id="parc">
+				<a href="#" class="parc">
 					<figure><img src="Projet_2/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo parc national des Calanques">
 						<figcaption><strong>Parc National des Calanques</strong></figcaption>
 					</figure>
 				</a>
 
-				<a href="#" id="dame">
+				<a href="#" class="dame">
 					<figure><img src="Projet_2/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo Notre-Dame-de-la-Garde">
 						<figcaption><strong>Notre-Dame-de-la-Garde</strong></figcaption>
 					</figure>
 				</a>
-				<a href="#" id="longchamp">
+				<a href="#" class="longchamp">
 					<figure><img src="Projet_2/images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo Parc Longchamp">
 						<figcaption><strong>Parc Longchamp</strong></figcaption>
 					</figure>
 				</a>
-		</article>
+			</div>
 	</section>
 
 	<footer>
-		<ul id="propos">
+		<ul class="propos">
 			<li><strong> A propos</strong></li>
 			<li>Fonctionnementdu site</li>
 			<li>Conditions générals de ventes</li>
 			<li>Données et confidentialité</li>
 		</ul>
-		<ul id="nos">
+		<ul class="nos">
 			<li><strong>Nos hébergements</strong></li>
 			<li>Charte qualité</li>
 			<li>Soumettre votre hôtel</li>
 		</ul>
-		<ul id="assistance">
+		<ul class="assistance">
 			<li><strong>Assistance</strong></li>
 			<li>Centre d'aide</li>
 			<li>Nous contacter</li>
