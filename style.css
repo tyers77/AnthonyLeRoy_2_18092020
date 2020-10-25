@@ -52,6 +52,7 @@ body
 	padding-left: 20px;
 	padding-right: 20px;
 	border-top: 1px solid transparent;
+	transition: 0.5s ease;
 }
 
 .inscrire
@@ -551,4 +552,190 @@ ul
 footer ul li
 {
 	padding-bottom: 10px;
+}
+
+/*responsive media queries*/
+
+@media all and (max-width: 480px)
+{
+body
+{
+	width: auto;
+}
+.conteneur
+{
+	width: auto;
+	position: relative;
+	flex-direction: column;
+	align-items: flex-start;
+}
+#logo
+{
+	width: auto;
+	margin-top: 50px;
+	margin-left: 35px;
+}
+.menu
+{
+	width: 100%;
+	
+}
+.menu ul 
+{
+	width: 100%;
+	padding: 0;
+	margin: auto;
+}
+.menu li 
+{
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	width: 50%;
+	text-align: center;
+}
+.hover
+{
+	width: 100%;
+	border-bottom: 1px solid #f2f2f2;
+}
+.hover:hover
+{
+	border-top-color: transparent;
+	border-bottom: 1px solid #0065fc;
+}	
+.inscrire
+{
+	/*width: auto!important;*/
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 80px;
+	right: -44px;
+}
+.recherche h2 
+{
+	margin-left: 35px;
+	margin-right: 70px;
+}
+.filtres
+{
+	position: relative;
+	margin-left: 20px;
+}
+.filtres p
+{
+	position: absolute;
+	margin: 0;
+	width: auto;
+}
+.responsive
+{
+	display: flex;
+	width: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+/*hebergements et populaires*/
+.section1
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 2;
+}
+.populaires
+{
+	width: auto;
+	grid-row: 1;
+	border-radius: unset;
+}
+.populaires a figure
+{
+	width: auto;
+}
+/*hebergements*/
+.hebergements
+{
+	background-color: unset;
+}
+.auberge
+{
+	display: flex;
+	flex-direction: column;
+}
+.auberge figure
+{
+	width: auto;
+	box-shadow: grey;
+}
+.auberge img 
+{
+	width: 100%;
+}
+
+/*activités*/
+.activites
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+.vieux
+{
+	width: 100%;
+}
+.vieux img 
+{
+	width: 483px;
+}
+.fort
+{
+	width: auto;
+}
+.fort img 
+{
+	width: 100%;
+}
+.frioul
+{
+	width: auto;
+}
+.frioul img 
+{
+	width: 100%;
+}
+.longchamp
+{
+	width: auto;
+}
+.longchamp img 
+{
+	width: 100%;
+}
+.parc
+{
+	width: auto;
+}
+.parc img 
+{
+	width: 100%;
+}
+.dame
+{
+	width: auto;
+}
+.dame img 
+{
+	width: 100%;
+}
+footer 
+{
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding-top: 30px;
+}
 }
