@@ -568,7 +568,6 @@ header
 	position: relative;
 	flex-direction: column;
 	align-items: flex-start;
-	/*margin-left: 35px;*/
 }
 #logo
 {
@@ -607,7 +606,6 @@ header
 }	
 .inscrire
 {
-	/*width: auto!important;*/
 	position: absolute;
 	margin: 0;
 	padding: 0;
@@ -658,10 +656,15 @@ span
 	margin: 0;
 	width: auto;
 }
-.responsive
+.filtres ul 
 {
-	display: flex;
+	position: relative;
+}
+.responsive 
+{
+	position: absolute;
 	width: auto;
+	right: -21px;
 }
 .filtres li 
 {   
