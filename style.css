@@ -618,19 +618,28 @@ header
 	margin-left: 30px;
 	margin-right: 12px;
 }
+.recherche h2 
+{
+	font-size: 1.8em;
+}
+.titre
+{
+	font-size: 1.3em;
+}
 form
 {
 	display: flex;
 }
 .marker
 {
-	padding-left: 8px;
-    padding-right: 8px;
+	padding-left: 12px;
+    padding-right: 12px;
 }
 .textarea
 {
-	width: 240px;
-	padding-left: 13px;
+	width: 288px;
+    padding-left: 17px;
+    font-size: 1.5em;
 }
 .button
 {
@@ -663,13 +672,13 @@ span
 	position: relative;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: self-start;
 }
 .responsive 
 {
 	position: absolute;
 	width: auto;
-	right: -170px;
+	right: -150px;
 }
 .filtres li 
 {   
