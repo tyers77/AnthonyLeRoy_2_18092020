@@ -402,6 +402,7 @@ a
 
 .activites
 {
+	height: 400px;
 	width:auto;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -440,7 +441,7 @@ a
 	width: 343px;
 	margin-right: 10px;
 	border-radius: 12px;
-	margin-top: 92px;
+	margin-top: 111px;
 }
 .parc
 {
@@ -469,7 +470,7 @@ a
 	height: 180px;
 	width: 343px;
 	border-radius: 12px;
-	margin-top: 65px;
+	margin-top: 84px;
 }
 .vieux img
 {
