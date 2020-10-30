@@ -391,7 +391,7 @@ a
 	width: 343px;
 	margin-right: 10px;
 	border-radius: 12px;
-	margin-top: 111px;
+	margin-top: 92px;
 }
 .parc
 {
@@ -420,7 +420,7 @@ a
 	height: 180px;
 	width: 343px;
 	border-radius: 12px;
-	margin-top: 84px;
+	margin-top: 66px;
 }
 .vieux img
 {
@@ -555,17 +555,18 @@ header
 {
 	position: absolute;
     top: 0px;
-    right: 25px;
+    right: 37px;
 }
 .recherche
 {
-	width: 100%;
-	margin-left: 30px;
-	margin-right: 30px;
+	width: auto;
+	padding-left: 30px;
+	/*margin-left: 30px;
+	margin-right: 30px;*/
 }
 .recherche h2 
 {
-	width: 80%;
+	width: 95%;
 	font-size: 1.7em;
 }
 .titre
@@ -778,6 +779,10 @@ header
 .hebergements h2 
 {
 	margin: 0;
+}
+.hotel2
+{
+	margin-top: 37px;
 }
 .auberge
 {
