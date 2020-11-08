@@ -625,7 +625,7 @@ span
 }
 .info
 {
-	font-size: .8em;
+	font-size: .9em;
 }
 .info i 
 {
@@ -686,6 +686,7 @@ span
 .auberge figcaption 
 {
 	width: 100%;
+	padding-bottom: 1px;
 }
 .auberge a figure
 {
